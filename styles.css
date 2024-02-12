@@ -1,0 +1,61 @@
+body, html {
+margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    cursor: url('https://cdn.glitch.global/8e1853f1-2c9b-40ac-994d-4a6b04bffbf8/icons8-heart-32.png?v=1707428390002'), auto;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: url('https://cdn.glitch.global/8e1853f1-2c9b-40ac-994d-4a6b04bffbf8/icons8-heart-32.png?v=1707428390002'), auto;
+}
+
+#responseContent {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Centering */
+    width: 60%; /* Container width */
+    max-width: 3500px; /* Maximum width */
+    display: none; /* Initially hidden */
+}
+
+h1 {
+    color: red;
+}
+
+p  {
+    color: red;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: url('https://cdn.glitch.global/8e1853f1-2c9b-40ac-994d-4a6b04bffbf8/icons8-heart-32.png?v=1707428390002'), auto;
+}
+
+button:hover {
+    background-color: rgb(255, 23, 213);
+}
+
+#responseImage, #responseVideo {
+    width: 100%; /* Full width of the container */
+    height: 80%; /* Height adjusts to maintain aspect ratio */
+    display: block; /* Display as a block element */
+    cursor: url('https://cdn.glitch.global/8e1853f1-2c9b-40ac-994d-4a6b04bffbf8/icons8-heart-32.png?v=1707428390002'), auto;
+}
